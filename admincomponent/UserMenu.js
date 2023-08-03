@@ -13,7 +13,7 @@ import axiosInstance from "../axiosInstance";
  function UserMenu() {
 
   const [data, setData] = useState(null);
-  useEffect(() => { 
+  useEffect(() => {
     // Fetch data from the API by sending the authentication token
     const token = localStorage.getItem('token');
     console.log("token is "+token);

@@ -9,8 +9,8 @@ const Layout = ({ mainTitle, footer, children }) => (
     <Navbarmenu />
 
     {/* container-xxl replace with  */}
-    <div className="container-fluid">
-      <div className="container-fluid">
+    <div className="container-xxl">
+      <div className="container">
         <div className="pageColor rounded">
           <div className="row">
             {/* <!--content page Start --> */}
@@ -27,8 +27,8 @@ const Layout = ({ mainTitle, footer, children }) => (
     </div>
 
     <div className="row footer pt-4">
-      <div className="container-fluid">
-        <div className="container-fluid">
+      <div className="container-xxl">
+        <div className="container">
 
 
 

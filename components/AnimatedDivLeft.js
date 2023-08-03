@@ -3,8 +3,8 @@ import { useInView } from 'react-intersection-observer';
 
 const AnimatedDivLeft = ({ children,animationVariants }) => {
   const { ref, inView } = useInView({
-    //triggerOnce: true, // Only trigger the animation once
-    threshold: 0.5, // The element is considered in view when it's 50% visible
+    triggerOnce: true, // Only trigger the animation once
+    threshold: 0.1, // The element is considered in view when it's 50% visible
   });
 /*
   const animationVariants = {

@@ -1,13 +1,8 @@
 
-
-
 body {
-   /* background-image: linear-gradient(to right, red , yellow);  */
-  /* background-color:  rgb(235, 210, 157) !important; */
-   /* background-image: url("/static/body.jpg");  */
-   background-image: url("/static/images/tamptra1.jpg"); 
-   background-repeat: both;
-   
+  /* background-image: linear-gradient(to right, red , yellow); */
+   background-color:  rgb(235, 210, 157) !important; 
+  /* background-image: url("/static/body.jpg"); */
  
  
 }
@@ -35,16 +30,9 @@ body {
   
 } */
 
-.backgroupimage{
-  background-image: url("/static/tampra2.jpg");
-}
 .titlestrip {
-  background-color:  rgb(250, 168, 4) !important;
+  background-color:  rgb(235, 210, 157) !important;
   
-}
-
-.cardbody{
-  background-color:  rgb(243, 228, 197) !important;
 }
 
 .justifytext {
@@ -183,13 +171,12 @@ h6,
 
 .navbar .dropdown-toggle::after {
   border: none;
-  content: '\2304';
+  content: "";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   vertical-align: middle;
   margin-left: 5px;
   transition: .5s;
-  margin-top: -10px;
 }
 
 .navbar .dropdown-toggle[aria-expanded=true]::after {
@@ -609,6 +596,3 @@ h6,
 .success-message {
   color: green; /* Set the color to red or any other desired color */
 }
-
-
-

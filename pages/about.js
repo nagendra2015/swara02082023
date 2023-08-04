@@ -84,7 +84,7 @@ function About() {
 
 
 
-          <div className="justifytext fs-5 p-3 zoom">
+          <div className="justifytext fs-5 p-3">
             <p>
             Swara Yoga is an organization to bring about the right information
               on swara yoga, an ancient science of breathing and to guide the

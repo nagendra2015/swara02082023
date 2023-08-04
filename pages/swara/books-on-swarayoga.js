@@ -68,29 +68,29 @@ function Booksonswarayoga() {
 
 
 
-                        <p className="justifytext fs-5  zoom">
+                        <p className="justifytext fs-5  ">
                         All the well known spiritual books say something about the importance of the breath and swaras.
                         </p>
 
 
 
-<p className="justifytext fs-5 p-3 zoom">  
+<p className="justifytext fs-5 p-3 ">  
 There are two that are the most important on this topic: Swara Chintamani and Shiva Swarodhaya.
    </p>
 
-   <p className="justifytext fs-5 p-3 zoom text-danger">  
+   <p className="justifytext fs-5 p-3  text-danger">  
    SWARA CHINTAMANI (the jewel of consciousness is Swara)
    </p>
 
-   <p className="justifytext fs-5 p-3 zoom">  
+   <p className="justifytext fs-5 p-3 ">  
    Author: Lord Shiva (a dialogue between Shiva and Parvati)
    </p>
 
-   <p className="justifytext fs-5 p-3 zoom">  
+   <p className="justifytext fs-5 p-3 ">  
    Dated: Written originally in Tamil and found in the Adyar Library in the last century
    </p>
 
-   <p className="justifytext fs-5 p-3 zoom">  
+   <p className="justifytext fs-5 p-3 ">  
    This book is very systematically divided into 24 chapters in which Parvati, wife of Shiva asks about all aspects of 
    life. She starts with a prayer and obescience to the Lord (Iswara) and then asks about all manner of things to 
    which Lord Shiva answers that everything depends on swara; that &lsquo;If breath is going out and coming in, 
@@ -124,40 +124,40 @@ There are two that are the most important on this topic: Swara Chintamani and Sh
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Author: Lord Shiva dialoguing with Parvati his consort.
 </p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Origin: Preserved in Guru Disciple tradition from the begening of the universe. Written in Sanskrit book-form, latter in between 500.BCto 300. AD with integration of all practices for the different purpose exoteric as well as esoteric.
 </p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Shakti as Parvati asks questions about the nature of the universe, about life , about the nature of suffering, death, war, predictions and the planetary effects and their negative and positive influences, how to live a successful married life, how to invoke a divine soul to be born, how to understand everything and realise the Higher Consciousness. Lord Shiva answers that by observing and manipulating the breath, all aspects of the universe from the manifest to the unmanifest as well as our own lives, can be understood and enhanced  through the medium of the breath.  The book also includes simple techniques for removing obstacles and negativity from our lives to improving it.
 </p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Some other texts on Swara Yoga are Gyan Swaroday and  Indra Swaroday. Also   swara yoga is explained  in Rrdrayamala tantra, in ekadasha patala (11th chapter).
 </p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Translation in hindi and english are published from different publication.
 </p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Few selected available books are:
 </p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Swara Yoga Translated by  Swami Muktibodhananda, Publisher Bihar School of Yoga, Munger, India.
 </p>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Swara Chintamani, translated by S. Kanan Publisher: Sagar  publication, Delhi , India.
 </p>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Breath Mind and Consciousness By Harish Johari.
 </p>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 Swara Yoga By Swami Sivananda, Publisher  Divine Life Society, Rishikesh, India.
 </p>
 </AnimatedDivLeft>

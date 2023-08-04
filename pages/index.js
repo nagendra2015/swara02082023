@@ -139,10 +139,10 @@ export default function Home() {
           </AnimatedDivLeft>
         </div>
 
-        <div className="col-lg-6 order-1 order-lg-2">
+        <div className="col-lg-6 order-1 order-lg-2  ">
           
           <AnimatedDivLeft animationVariants={customAnimationVariantsRight}>
-        <img
+        <img 
             className="d-block w-100"
             src="/static/images/gurujiwithsadhana.jpg" 
             alt="Guru ji with sadhana"
@@ -157,7 +157,7 @@ export default function Home() {
 <div className="container">
 
 <div className="row">
-  <div className="col-lg-6 d-flex align-items-center">
+  <div className="col-lg-6 d-flex align-items-center ">
         <AnimatedDivLeft animationVariants={customAnimationVariantsRight}>
   <img
             className="d-block w-100"
@@ -169,7 +169,7 @@ export default function Home() {
   <div className="col-lg-6 pt-4 pt-lg-0 content">
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-    <div className="justifytext fs-5 p-3 zoom">
+    <div className="justifytext fs-5 p-3">
             <p>
               The word SWARA in Sanskrit, means sound or musical note; it also
               means the continuous flow of air through one nostril. And we all
@@ -180,7 +180,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="justifytext fs-5 p-3 zoom">
+          <div className="justifytext fs-5 p-3">
             <p>
               Swara yoga is an ancient tantric science which involves the
               systematic study of the breath flow through the nostrils (or
@@ -215,7 +215,7 @@ export default function Home() {
         <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" >
         <AnimatedDivLeft animationVariants={customAnimationVariantsspring}>
               
-            <div className="justifytext fs-5 p-3 zoom">
+            <div className="justifytext fs-5 p-3">
             <p>
               Swara yoga is an ancient science existing since before the Vedic
               period, over ten thousand years ago. It was a secret science, only
@@ -226,7 +226,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="justifytext fs-5 p-3 zoom">
+          <div className="justifytext fs-5 p-3">
             <p>
               This ancient divine knowledge was available only for sadhaks, to
               those who had risen above the worldly and mundane affairs of life,
@@ -255,7 +255,7 @@ export default function Home() {
 
 
         </div>
-        <div className="col-lg-6 order-1 order-lg-2" >
+        <div className="col-lg-6 order-1 order-lg-2 " >
         <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
         <img
             className="d-block w-100"
@@ -274,7 +274,7 @@ export default function Home() {
 <div className="container">
 
 <div className="row">
-  <div className="col-lg-6 d-flex align-items-center">
+  <div className="col-lg-6 d-flex align-items-center ">
 
   <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
   <img
@@ -289,7 +289,7 @@ export default function Home() {
 
     <AnimatedDivLeft animationVariants={customAnimationVariantsspring}>
 
-    <div className="justifytext fs-5 p-3 zoom">
+    <div className="justifytext fs-5 p-3">
             <p>
               Through the knowledge of swara yoga one can become free from all
               kinds of negative influences of one’s destiny and can achieve
@@ -309,7 +309,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="justifytext fs-5 p-3 zoom">
+          <div className="justifytext fs-5 p-3">
             <p>
               The fascinating thing about Swara yoga is that just by being aware
               of the swara (dominant nostril) in relation to the environment,
@@ -337,7 +337,7 @@ export default function Home() {
 <div className="row">
 <AnimatedDivLeft animationVariants={customAnimationVariantsspring}>
 <div className="row">
-<div className="col-lg-4">
+<div className="col-lg-4 zoom">
 <img
             className="d-block w-100"
             src="/static/images/courses/basic.png" 
@@ -345,7 +345,7 @@ export default function Home() {
           />
 
 </div>
-<div className="col-lg-4">
+<div className="col-lg-4 zoom">
 <img
             className="d-block w-100"
             src="/static/images/courses/intermediate.png" 
@@ -353,7 +353,7 @@ export default function Home() {
           />
 
 </div>
-<div className="col-lg-4">
+<div className="col-lg-4 zoom">
   
 <img
             className="d-block w-100"

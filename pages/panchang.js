@@ -80,13 +80,9 @@ useEffect(() => {
 
       <div>
         <CarouselList></CarouselList>
-        <div className="mt-3">
+        <div className="mt-1">
 
 
---------------
-
-
-------------------
 
 
           <div className="card   ">

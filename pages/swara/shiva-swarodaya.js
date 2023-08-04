@@ -80,14 +80,14 @@ function Shivaswarodaya() {
                         <p>&nbsp;</p>
                         <h3>Shakti asks Lord Shiva:</h3>
 
-                        <p className="justifytext fs-5  zoom">Q. 1. Which knowledge bestows perfection?</p>
+                        <p className="justifytext fs-5  ">Q. 1. Which knowledge bestows perfection?</p>
 
-                        <p className="justifytext fs-5  zoom">Q. 2. How was the universe created?</p>
-                        <p className="justifytext fs-5  zoom">Q.3. How does the universe change and dissolve?</p>
+                        <p className="justifytext fs-5  ">Q. 2. How was the universe created?</p>
+                        <p className="justifytext fs-5  ">Q.3. How does the universe change and dissolve?</p>
 
-                        <p className="justifytext fs-5  zoom">Q.4. Who determines the universe?</p>
+                        <p className="justifytext fs-5  ">Q.4. Who determines the universe?</p>
 
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
     Lord Shiva responds: Creation takes place due to tattwas (subtle essences), is sustained by them and finally dissolves into them. Tattwas are the origin of the universe. There is one birthless, formless supreme existence from which evolves akasha (ether), from which comes vayu (air). From vayu originates tejas (fire), from tejas apas (water) and from apas prithvi (earth). These five elements are spread throughout the world. Creation is formed and sustained from them and again merges back into them as the subtle process of creation continues ceaselessly.</p>
 
                       </div>
@@ -100,7 +100,7 @@ function Shivaswarodaya() {
 <div className="col-lg-12">
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 
 What is swara? The science of Swara is the secret of all secrets and reveals the essence of all benefits. This science is the crown jewel of all knowledge. It is the subtlest of all subtle knowledge. It is easy to understand and based on truth. To the atheist it is a wonder, to the theist, the base (verse 11, Shiv Swara Udaya)
 
@@ -108,7 +108,7 @@ What is swara? The science of Swara is the secret of all secrets and reveals the
 </AnimatedDivLeft>
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 
 Who may have the knowledge? It should be given to one who is peaceful, pure, well behaved, dedicated to the guru, determined in mind, grateful (verse 13) The glory of Swara The power of swara overcomes enemies and joins friends, obtains wealth and glory (verse 22)
 
@@ -116,7 +116,7 @@ Who may have the knowledge? It should be given to one who is peaceful, pure, wel
 </AnimatedDivLeft>
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 
 O Lady of beautiful face, all sacred books, moral stories, learning and Upinashads are not beyond the knowledge of swara (verse 25)
 
@@ -124,7 +124,7 @@ O Lady of beautiful face, all sacred books, moral stories, learning and Upinasha
 </AnimatedDivLeft>
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 
 
 If you have knowledge of Swara, it is not necessary to consult the date, stars, days, planets, gods, conjunctions of stars or disorders of humours, phlegm, bile, wind, before starting any project (verse 29)
@@ -133,7 +133,7 @@ If you have knowledge of Swara, it is not necessary to consult the date, stars, 
 </AnimatedDivLeft>
 
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 
 The teaching should not be revealed simply to answer someone’s questions, but by one’s own self, by one’s own intellect in one’s own body (verse 28)
 
@@ -145,7 +145,7 @@ The teaching should not be revealed simply to answer someone’s questions, but 
 <div className="col-lg-12">
 <h3>AMONG SHASTRA</h3>
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
-<p className="justifytext fs-5 p-3 zoom">
+<p className="justifytext fs-5 p-3 ">
 
 Among subjects that the texts on Swara discuss are the placement, location and function of the nadis, Yoga sadhana, description of auspicious/ inauspicious nadis according to the day, rules of the five tattwas, Zodiac signs according to the day and night, the appropriate direction of travel, reverse situations, fulfilment of desires, auspicious acts during the flow of ida nadi, successful acts during the flow of Pingala nadi, characteristics of sushumna nadi, eight-fold division of elements or breath, predictions and divination, places of the five elements in the body, how to get gain and prosperity, prediction and indicators of death, attainment of psychic powers through the knowledge of swara, getting a divine child, super-psychic Astrology and Vastu connected with nadis and chakras and overcoming illnesses.
 

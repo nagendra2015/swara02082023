@@ -80,13 +80,13 @@ function swarachange() {
                         <p>&nbsp;</p>
 
 
-                        <p className="justifytext fs-5  zoom">
+                        <p className="justifytext fs-5  ">
                             
                         If anyone who want to chang the flow of breath from active swara (breath) to inactive swara use these three  most effective and easy method.
                         </p>
                         <p>&nbsp;</p>
                         <h3>1. Yoga Danda Method</h3>
-                        <p className="justifytext fs-5  zoom">Using yoga danda under the armpit of your active side and put your weight over the danda. Observe your breath flow and you will find within 5 to 10 minute your breath flow will change into soonya (non-active side). For ex. if your right nostril is active put yoga danda under your right armpit, breath flow will change in to left.</p>
+                        <p className="justifytext fs-5  ">Using yoga danda under the armpit of your active side and put your weight over the danda. Observe your breath flow and you will find within 5 to 10 minute your breath flow will change into soonya (non-active side). For ex. if your right nostril is active put yoga danda under your right armpit, breath flow will change in to left.</p>
                     </AnimatedDivLeft>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ function swarachange() {
 <div className="col-lg-8 d-flex ">
 <AnimatedDivLeft animationVariants={customAnimationVariantsLeft}>
 
-<p className="justifytext fs-5  zoom">
+<p className="justifytext fs-5  ">
 Lying on the same side which swara is active (see figure) your close nostril will open within 5 to 10 minute . For ex. If your left nostril is active and you want to change into right, lie down on your left side keep right side upward, right will become active in given time. If your breath is not changing even after more then 20 minutes  that means your breath has just shifted from other side..If it is not then it  indicate imbalance sate of energy flow that may cause chronic mental or physical illness in fucture or even death.  
 </p>
 </AnimatedDivLeft>
@@ -130,7 +130,7 @@ Lying on the same side which swara is active (see figure) your close nostril wil
     </center>
     </h3>
 
-<p className="justifytext fs-5  zoom">
+<p className="justifytext fs-5  ">
 
 Put pressure under the armpit of the active side with opposite hand. For ex. if your right nostril is active and you want to change into left. Put pressure by your left hand on your right armpit by the thumb and other four finger. Swara will change within 20 minutes
 </p>

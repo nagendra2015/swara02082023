@@ -50,8 +50,8 @@ function Videopage() {
         </div>
 
         <div className="mt-3">
-          <div className="card  titlestrip ">
-            <div className="card-header">
+          <div className="card   ">
+            <div className="card-header titlestrip">
               <motion.div
                 initial={{ x: 300, scale: 0.5 }}
                 animate={{ x: 0, scale: 1 }}
@@ -66,7 +66,7 @@ function Videopage() {
 
               <div className="row">
                 <motion.div
-                  class="col"
+                  class="col-lg-6"
                   initial={{ x: -300, scale: 0.5 }}
                   animate={{ x: 0, scale: 1 }}
                   transition={{ duration: 2 }}
@@ -92,7 +92,7 @@ function Videopage() {
                 </motion.div>
 
                 <motion.div
-                  className="col"
+                  className="col-lg-6"
                   initial={{ x: -300, scale: 0.5 }}
                   animate={{ x: 0, scale: 1 }}
                   transition={{ duration: 2 }}
@@ -122,7 +122,7 @@ function Videopage() {
  <div className="justifytext fs-5 p-3 "></div>
  <div className="row">
                 <motion.div
-                  class="col"
+                  class="col-lg-6"
                   initial={{ x: -300, scale: 0.5 }}
                   animate={{ x: 0, scale: 1 }}
                   transition={{ duration: 2 }}
@@ -148,7 +148,7 @@ function Videopage() {
                 </motion.div>
 
                 <motion.div
-                  className="col"
+                  className="col-lg-6"
                   initial={{ x: -300, scale: 0.5 }}
                   animate={{ x: 0, scale: 1 }}
                   transition={{ duration: 2 }}
@@ -178,7 +178,7 @@ function Videopage() {
  <div className="justifytext fs-5 p-3 "></div>
  <div className="row">
                 <motion.div
-                  class="col"
+                  class="col-lg-6"
                   initial={{ x: -300, scale: 0.5 }}
                   animate={{ x: 0, scale: 1 }}
                   transition={{ duration: 2 }}
@@ -204,7 +204,7 @@ function Videopage() {
                 </motion.div>
 
                 <motion.div
-                  className="col"
+                  className="col-lg-6"
                   initial={{ x: -300, scale: 0.5 }}
                   animate={{ x: 0, scale: 1 }}
                   transition={{ duration: 2 }}

@@ -62,8 +62,8 @@ if(response.data.ustatus=='S')
   return (
     <div>
       <div>
-        <div className="card  titlestrip">
-          <div className="card-header text-white">
+        <div className="card  ">
+          <div className="card-header text-white titlestrip">
             <h3> Login</h3>
           </div>
           <div className="fs-5 justifytext">

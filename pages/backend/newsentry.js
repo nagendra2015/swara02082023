@@ -137,9 +137,11 @@ await axiosInstance.delete('/news/'+id);
 
 
 
-<div>
+<div className="container">
       <h1>Added Latest News</h1> 
     </div>
+
+    <div className="container">
      <table className="table table-striped">
         <thead>
           <tr>
@@ -160,7 +162,7 @@ await axiosInstance.delete('/news/'+id);
           ))}
         </tbody>
       </table> 
-
+</div>
 
 
 

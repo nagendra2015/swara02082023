@@ -3,12 +3,25 @@ import { useEffect, useState } from 'react';
 import Layout from "../../admincomponent/AdminLayout";
 import axiosInstance from '../../axiosInstance';
 
+
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+
  function Blogentry() { 
+
+
+  const [Blog_Description, setEditorHtml] = useState('');
+
+  const handleEditorChange = (html) => {
+    setEditorHtml(html);
+  };
+
+
 
 
   const [records, setRecords] = useState([]);
   const [Blog_Subject, setBlog_Subject] = useState('');
-  const [Blog_Description, setBlog_Description] = useState('');
+  //const [Blog_Description, setBlog_Description] = useState('');
  // const [news_description, setNewsItem] = useState('');
  
   const [infoMsg, setInfo] = useState('');
@@ -37,7 +50,12 @@ import axiosInstance from '../../axiosInstance';
   }, []);
 
 const handleSubmit = async (e) => {
- 
+
+      // Here, you can include editorHtml in your form submission process.
+      console.log('Rich Text Content:', Blog_Description);
+      // Perform your form submission logic here.
+
+
   setErrorMessage('');
   setInfo('')  ;
   e.preventDefault();
@@ -54,14 +72,14 @@ const handleSubmit = async (e) => {
     setErrorMessage('Please enter value in blog Description box'); // Display error message for empty textbox
     return;
   }
-
+console.log(edata);
   try {
 
 //    await axios.post('http://localhost:3001/api/v1/news', edata)
           await axiosInstance.post('/blog',edata);
     //console.log('Message sent successfully');
     setInfo('Message saved successfully')  ;
-    setBlog_Description('');
+    //setBlog_Description('');
     setBlog_Subject('');
     fetchnewitem();
   } catch (err) {
@@ -101,26 +119,38 @@ await axiosInstance.delete('/blog/'+id);
     footer={`Copyright ${new Date().getFullYear()}`}>
 
       <div className="mt-1">
-        <div className="card  titlestrip ">
-          <div className="card-header">
+        <div className="card   ">
+          <div className="card-header titlestrip">
            Add New Blog      {infoMsg}
           </div>
           <div className="justifytext fs-5 p-3">
       <form onSubmit={handleSubmit}> 
+
+
         <div className='row'>
           <label htmlFor="message">Blog Subject</label>
           <textarea id="Blog_Subject" value={Blog_Subject} onChange={(e) => setBlog_Subject(e.target.value)} />
         </div>
 
+
         <div className='row'>
           <label htmlFor="message">Blog Desciption</label>
-          <textarea id="Blog_Subject" value={Blog_Description} onChange={(e) => setBlog_Description(e.target.value)} />
-        </div>
-        
+          {/* <textarea id="Blog_Subject" value={Blog_Description} onChange={(e) => setBlog_Description(e.target.value)} /> */}
 
+          <ReactQuill value={Blog_Description} onChange={handleEditorChange} />
+
+        </div>
+        <div className='row'>
+  <p>&nbsp;</p>  <p>&nbsp;</p><p>&nbsp;</p>
+</div>
+
+<div className='row'>
         <div className="mt-3"></div>
         <button type="submit" className='btn btn-primary'>Submit</button>   &nbsp;&nbsp;&nbsp;
        <span className='error-message'> {errorMessage} </span> <span className='success-message'> {infoMsg} </span>
+       </div>
+
+
       </form>
     
   </div>
@@ -130,11 +160,18 @@ await axiosInstance.delete('/blog/'+id);
     
 
 
+      <div className="card   ">
+          <div className="card-header titlestrip">
+          <h1>Latest Blog </h1> 
+          </div>
 
 
-<div>
-      <h1>Latest Blog </h1> 
-    </div>
+
+
+
+
+
+
      <table className="table table-striped">
         <thead>
           <tr>
@@ -146,7 +183,9 @@ await axiosInstance.delete('/blog/'+id);
           {records && records.map((item) => (
             <tr key={item.Blog_Id}>
               <td>{item.Blog_Subject}</td>
-              <td>{item.Blog_Description}</td>
+              {/* <td>{item.Blog_Description}</td> */}
+
+              <td dangerouslySetInnerHTML={{ __html: item.Blog_Description }}></td>
                <td>{item.Image_Url}</td> 
               <td>{item.entry_date}</td>
              
@@ -157,7 +196,7 @@ await axiosInstance.delete('/blog/'+id);
       </table> 
 
 
-
+      </div>
 
 
     </Layout>);

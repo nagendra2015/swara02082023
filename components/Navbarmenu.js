@@ -31,17 +31,17 @@ function Navbarmenu() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <Link href="/" className="nav-link">
+              <Link href="/" className="nav-link fs-6 menubackground">
                 Home
               </Link>
 {/* about us page start */}
 <NavDropdown
                 title="About Us "
                 id="basic-nav-dropdown"
-                className="dropbtn"
+                className="dropbtn fs-5 menubackground"
               > 
                 <i className="fa fa-caret-down"></i>
-                <Link href="/about" className="dropdown-item">
+                <Link href="/about" className="dropdown-item ">
                   About Us
                 </Link>
                 <NavDropdown.Divider />
@@ -52,15 +52,15 @@ function Navbarmenu() {
 
               </NavDropdown>
 {/* end about us page */}
-              <Link href="/panchang" className="nav-link">
+              <Link href="/panchang" className="nav-link fs-6 menubackground">
                 Panchang
               </Link>
 
-              <Link href="/dailyswara" className="nav-link">
+              <Link href="/dailyswara" className="nav-link fs-6 menubackground">
                 Daily Swara
               </Link>
 
-              <Link href="/videopage" className="nav-link">
+              <Link href="/videopage" className="nav-link fs-6 menubackground">
                 Video Gallery
               </Link>
 
@@ -69,7 +69,7 @@ function Navbarmenu() {
 <NavDropdown
                 title="Swara Yoga"
                 id="basic-nav-dropdown1"
-                className="dropbtn"
+                className="dropbtn fs-6 menubackground"
               > 
                 <i className="fa fa-caret-down"></i>
                 <Link href="/swara/shiva-swarodaya" className="dropdown-item">
@@ -107,19 +107,19 @@ function Navbarmenu() {
 
 
 
-              <Link href="/contact" className="nav-link">
+              <Link href="/contact" className="nav-link fs-6 menubackground">
                 Contact Us
               </Link>
 
-              <Link href="/blog" className="nav-link">
+              <Link href="/blog" className="nav-link fs-6 menubackground">
                 Blog
               </Link>
 
-              <Link href="/signin" className="nav-link">
+              <Link href="/signin" className="nav-link fs-6 menubackground">
                 Sign In
               </Link>
 
-              <Link href="/loginuser" className="nav-link">
+              <Link href="/loginuser" className="nav-link fs-6 menubackground">
                 Login
               </Link>
 
@@ -127,46 +127,7 @@ function Navbarmenu() {
 
 
 
-              {/*
-               <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown
-                title="Dropdown"
-                id="basic-nav-dropdown"
-                className="dropbtn"
-              >
-                <i className="fa fa-caret-down"></i>
-                <Link href="/contact" className="dropdown-item">
-                  Contact Page
-                </Link>
-                <NavDropdown.Divider />
-                <Link href="/about" className="dropdown-item">
-                  about Page
-                </Link>
-                <NavDropdown.Divider />
-                <Link href="/" className="dropdown-item">
-                  Home
-                </Link>
-                <NavDropdown.Item href="/about">Action</NavDropdown.Item>
-                <NavDropdown.Item href="/contact">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/about">Action</NavDropdown.Item>
-                <NavDropdown.Item href="/contact">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
 
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown> 
-              
-              */}
             </Nav>
           </Navbar.Collapse>
         </Container>

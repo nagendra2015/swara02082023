@@ -78,8 +78,8 @@ if(response.status==502)
     <div>
 
       <div>
-        <div className="card  titlestrip">
-          <div className="card-header text-white">
+        <div className="card  ">
+          <div className="card-header text-white titlestrip">
             <h3> Sign In Form</h3>
           </div>
           <div className="fs-5 justifytext">

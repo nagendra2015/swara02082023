@@ -5,9 +5,18 @@ body {
    /* background-image: linear-gradient(to right, red , yellow);  */
    /* background-color:  rgb(235, 210, 157) !important; */
    /* background-image: url("/static/body.jpg");  */
-    background-image: url("/static/images/tamptra1.jpg"); 
-   background-repeat: both;
+    /* background-image: url("/static/images/tamptra1.jpg");  */
+   /* background-repeat: both; */
+
+    /* background-image: linear-gradient(to bottom #e5f88e80 , #c4e0b780);  */
+
+    /* background-image: linear-gradient(to bottom #dbf37180 , #dbf37180);  */
+
     
+
+    /* background-color: rgb(238, 255, 160);  
+    */
+    background-image: linear-gradient(180deg, rgb(238, 229, 108), yellow);
  
  
 }
@@ -22,9 +31,11 @@ body {
 }
 
 .pageMenustrip {
-  /* background-color:  rgb(133, 108, 55) !important; */
-  background-image: url("/static/bgimg.jpg");
-  background-repeat: repeat;
+
+  /* background-image: linear-gradient(to bottom #c8ee2080 , #deec1280);  */
+    background-color:  #dbf37180 !important;  
+  /* background-image: url("/static/bgimg.jpg");
+  background-repeat: repeat; */
  
   
 }
@@ -39,7 +50,10 @@ body {
   background-image: url("/static/tampra2.jpg");
 }
 .titlestrip {
-  background-color:  rgb(250, 168, 4) !important;
+  /* background-color:  rgb(250, 168, 4) !important; */
+
+  background-color:  rgb(232, 205, 63) !important ;
+  
   
 }
 
@@ -166,8 +180,12 @@ h6,
 /*** Navbar ***/
 .navbar .navbar-nav .nav-link {
   padding: 3px 5px;
-  color: var(--light);
-  font-weight: 500;
+  /* color: var(--light);
+  font-weight: 500; */
+
+  color: #fff;
+  font-weight: 630;
+
   outline: none;
 
 }
@@ -209,7 +227,7 @@ h6,
   }
 }
 
-.menubackground {
+/* .menubackground {
   background-color: orange;
   margin-right: 10px;
 
@@ -217,7 +235,7 @@ h6,
   border:  1px solid #FFF5F3;
 
   
-}
+} */
 
 @media (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
@@ -532,9 +550,12 @@ h6,
 /*** Footer ***/
 
 .footer{
-  background-image: url("/static/footer1.jpg");
+  /* background-image: url("/static/footer1.jpg"); */
   
-  /* background-image: linear-gradient(180deg, red, yellow); */
+   /* background-image: linear-gradient(180deg, red, yellow);  */
+   background-image: linear-gradient(180deg, #c4e0b780, #c4e0b780); 
+
+   
   min-height: 200px;
 }
 

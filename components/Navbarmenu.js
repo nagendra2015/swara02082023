@@ -31,14 +31,14 @@ function Navbarmenu() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <Link href="/" className="nav-link fs-6 menubackground">
+              <Link href="/" className="nav-link fs-4 ">
                 Home
               </Link>
 {/* about us page start */}
 <NavDropdown
                 title="About Us "
                 id="basic-nav-dropdown"
-                className="dropbtn fs-5 menubackground"
+                className="dropbtn fs-4"
               > 
                 <i className="fa fa-caret-down"></i>
                 <Link href="/about" className="dropdown-item ">
@@ -52,15 +52,15 @@ function Navbarmenu() {
 
               </NavDropdown>
 {/* end about us page */}
-              <Link href="/panchang" className="nav-link fs-6 menubackground">
+              <Link href="/panchang" className="nav-link fs-4">
                 Panchang
               </Link>
 
-              <Link href="/dailyswara" className="nav-link fs-6 menubackground">
+              <Link href="/dailyswara" className="nav-link fs-4">
                 Daily Swara
               </Link>
 
-              <Link href="/videopage" className="nav-link fs-6 menubackground">
+              <Link href="/videopage" className="nav-link fs-4">
                 Video Gallery
               </Link>
 
@@ -69,7 +69,7 @@ function Navbarmenu() {
 <NavDropdown
                 title="Swara Yoga"
                 id="basic-nav-dropdown1"
-                className="dropbtn fs-6 menubackground"
+                className="dropbtn fs-4"
               > 
                 <i className="fa fa-caret-down"></i>
                 <Link href="/swara/shiva-swarodaya" className="dropdown-item">
@@ -107,11 +107,11 @@ function Navbarmenu() {
 
 
 
-              <Link href="/contact" className="nav-link fs-6 menubackground">
+              <Link href="/contact" className="nav-link fs-4">
                 Contact Us
               </Link>
 
-              <Link href="/blog" className="nav-link fs-6 menubackground">
+              {/* <Link href="/blog" className="nav-link fs-6 menubackground">
                 Blog
               </Link>
 
@@ -121,7 +121,7 @@ function Navbarmenu() {
 
               <Link href="/loginuser" className="nav-link fs-6 menubackground">
                 Login
-              </Link>
+              </Link> */}
 
 
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import Image from "next/image";
+//import Image from "next/image";
 // import styles from '../styles/Home.module.css'
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
@@ -31,8 +31,6 @@ export default function Home() {
     duration: 1,
     bounce: 0.3,
   };
-
-
   const { ref, inView } = useInView();
   const animation = useAnimation();
 
@@ -89,7 +87,7 @@ export default function Home() {
           </div>
 <div  className="cardbody backgroupimage" >
 
-<dvi className="row">
+<div className="row">
 
 <div ref={ref}>
             <motion.div className="d-flex flex-column justify-content-center fs-5 p-3 " animate={animation}>
@@ -100,7 +98,7 @@ export default function Home() {
             </motion.div>
           </div>
 
-</dvi>
+</div>
 
 
 <div className="container">
